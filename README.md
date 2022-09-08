@@ -1,43 +1,13 @@
-# Titanic-Data-visualization
-This is a project in a Jupyter Notebook for the Udacity data analytics project 3. The goal of this repository is to provide atleast 15 visualization for data analytics.
-## Dependencies: 
-NumPy
-IPython
-Pandas
-SciKit-Learn
-SciPy
-StatsModels
-Patsy
-Matplotlib
-###  Titanic Data Visualization from Disaster
-The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
+# Dataset 
+The Dataset contains information regarding passengers who aboarded in the titanic ship. It comprises of 12 columns and 891 rows.
+The 12 columns include PClass, Sex, age, fare, embarked, survived, ticked, and several other columns. 
+The dataset can be found in kaggle by following this link https://www.kaggle.com/search?q=titanic+dataset
 
-One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
-
-In this cproject, I perform visualization to get the analysis of what sorts of people were likely to survive. In particular, I use univariate distribution, bivariate distribution and multivariate distribution and provide an explanatory notebook with key finds from the exploratory notebook
-#### Structure of the dataset:
-The dataset has 12 columns with 891 rows. Every entry represent a passenger's information regarding each feature. Those columns are:
-Survived - Survival (0 = No; 1 = Yes)
-
-Pclass - Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)
-
-Name - Name
-
-Sex - Sex
-
-Age - Age
-
-SibSp - Number of Siblings/Spouses Aboard
-
-Parch - Number of Parents/Children Aboard
-
-Ticket - Ticket Number
-
-Fare - Passenger Fare (British pound)
-
-Cabin - Cabin
-
-Embarked - Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
-##### Summary of findings from the Exploratory section
-Females survived more than males
-Those in First class survived many compared to second class, and second class had more survivors than third class; 1 > 2 > 3
+## Summary of the findings
+In the exploration part, i realized there is a strong correalation between passengers class and chances of surviving. It was obseverved those passengers who aboarded first class survived more than those who were in second class, and those who were in second class had more survivors than the third class.
+Another finding in my exploration was how gender survived. Females survived many compared to males 
+In the titanic there was relationship between passengers class and their age. It was observed passengers aged 30-40 were the majority in first class, while those in their twenties aboarded third class.
+### Key insights for presentation 
+I focused on features that had an impact on chances of survivor. by visualization i could see Females survived more than males
+Also those in the first class survived many than those in second class, and those in the second survived more than the third class.
+it was 1st > 2nd > 3rd
